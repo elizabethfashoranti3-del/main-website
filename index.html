@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliza's Web Design | Websites That Help Local Businesses Get Customers</title>
+    <meta name="description" content="We build high-converting, professional websites for plumbers, electricians, contractors, salons, restaurants, and small businesses. Fast delivery & mobile-friendly.">
+    <meta name="keywords" content="web design, local business websites, Nigeria web designer, Paystack integration, small business website, SEO optimization">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Glow Effect -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <div class="bg-glow bg-glow-3"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-icon"><i class="fa-solid fa-code"></i></span>
+                <span class="logo-text">Eliza's <span class="gold-text">Web Design</span></span>
+            </a>
+            
+            <nav class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#pricing" class="nav-link">Pricing</a>
+                <a href="#why-us" class="nav-link">Why Choose Me</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-outline btn-sm">Get Free Demo</a>
+                <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation Menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- 🏠 HOME PAGE HERO SECTION -->
+        <section class="hero-section" id="home">
+            <div class="container hero-container">
+                <div class="hero-badge animate-fade-down">
+                    <i class="fa-solid fa-crown gold-icon"></i>
+                    <span>High-Converting Local Business Websites</span>
+                </div>
+                
+                <h1 class="hero-headline animate-fade-up">
+                    We Build Websites That Help <span class="gold-gradient-text">Local Businesses</span> Get More Customers.
+                </h1>
+                
+                <p class="hero-subheading animate-fade-up delay-1">
+                    Professional websites for plumbers, electricians, contractors, salons, restaurants, and small businesses.
+                </p>
+                
+                <div class="hero-cta animate-fade-up delay-2">
+                    <a href="https://goldrichstores.lovable.app" target="_blank" rel="noopener" class="btn btn-gold btn-lg">
+                        <i class="fa-solid fa-folder-open"></i> View My Work
+                    </a>
+                    <a href="#demo-section" class="btn btn-glass btn-lg">
+                        <i class="fa-solid fa-wand-magic-sparkles gold-icon"></i> Get a Free Website Demo
+                    </a>
+                </div>
+
+                <!-- Live Metrics Bar -->
+                <div class="hero-features animate-fade-up delay-3">
+                    <div class="feature-tag"><i class="fa-solid fa-bolt gold-text"></i> Fast 48-Hour Delivery</div>
+                    <div class="feature-tag"><i class="fa-solid fa-mobile-screen-button gold-text"></i> 100% Mobile Ready</div>
+                    <div class="feature-tag"><i class="fa-solid fa-magnifying-glass-location gold-text"></i> Google Maps & SEO</div>
+                    <div class="feature-tag"><i class="fa-solid fa-shield-halved gold-text"></i> Paystack Secured</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 📁 PORTFOLIO SECTION -->
+        <section class="portfolio-section" id="portfolio">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="section-tag"><i class="fa-solid fa-briefcase"></i> Portfolio Showcase</div>
+                    <h2 class="section-title">Explore Sample <span class="gold-gradient-text">Concept Designs</span></h2>
+                    <p class="section-subtitle">Custom tailored layouts built to convert website visitors into paying local customers.</p>
+                </div>
+
+                <div class="portfolio-grid">
+                    <!-- Portfolio Item 1: Restaurant -->
+                    <div class="portfolio-card" data-category="restaurant">
+                        <div class="portfolio-image-wrapper">
+                            <img src="images/restaurant.jpg" alt="Local Restaurant Website Concept Design" loading="lazy">
+                            <div class="badge-concept">Concept Design</div>
+                            <div class="portfolio-overlay">
+                                <button class="btn btn-gold btn-sm open-preview" data-modal="modal-restaurant">
+                                    <i class="fa-solid fa-eye"></i> Preview Design
+                                </button>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-meta">
+                                <span class="category-tag"><i class="fa-solid fa-utensils"></i> Food & Dining</span>
+                            </div>
+                            <h3 class="portfolio-title">Local Gourmet Restaurant</h3>
+                            <p class="portfolio-desc">Interactive food menu display, table reservation integration, online order enquiry, and Google Maps location.</p>
+                            <div class="portfolio-actions">
+                                <button class="btn btn-outline btn-sm open-preview" data-modal="modal-restaurant">View Details</button>
+                                <a href="https://goldrichstores.lovable.app" target="_blank" class="btn btn-glass btn-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Item 2: Roofing Company -->
+                    <div class="portfolio-card" data-category="contractor">
+                        <div class="portfolio-image-wrapper">
+                            <img src="images/roofing.jpg" alt="Roofing Company Website Concept Design" loading="lazy">
+                            <div class="badge-concept">Concept Design</div>
+                            <div class="portfolio-overlay">
+                                <button class="btn btn-gold btn-sm open-preview" data-modal="modal-roofing">
+                                    <i class="fa-solid fa-eye"></i> Preview Design
+                                </button>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-meta">
+                                <span class="category-tag"><i class="fa-solid fa-hammer"></i> Home Services</span>
+                            </div>
+                            <h3 class="portfolio-title">Roofing & Contracting Co.</h3>
+                            <p class="portfolio-desc">Instant estimate quote form, emergency repair hotlines, project showcase gallery, and client reviews.</p>
+                            <div class="portfolio-actions">
+                                <button class="btn btn-outline btn-sm open-preview" data-modal="modal-roofing">View Details</button>
+                                <a href="https://goldrichstores.lovable.app" target="_blank" class="btn btn-glass btn-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Item 3: Barber Shop -->
+                    <div class="portfolio-card" data-category="barber">
+                        <div class="portfolio-image-wrapper">
+                            <img src="images/barbershop.jpg" alt="Barber Shop Website Concept Design" loading="lazy">
+                            <div class="badge-concept">Concept Design</div>
+                            <div class="portfolio-overlay">
+                                <button class="btn btn-gold btn-sm open-preview" data-modal="modal-barber">
+                                    <i class="fa-solid fa-eye"></i> Preview Design
+                                </button>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-meta">
+                                <span class="category-tag"><i class="fa-solid fa-scissors"></i> Grooming & Beauty</span>
+                            </div>
+                            <h3 class="portfolio-title">Executive Barber Shop</h3>
+                            <p class="portfolio-desc">Online appointment booking, barber roster showcase, pricing menu, and direct WhatsApp booking button.</p>
+                            <div class="portfolio-actions">
+                                <button class="btn btn-outline btn-sm open-preview" data-modal="modal-barber">View Details</button>
+                                <a href="https://goldrichstores.lovable.app" target="_blank" class="btn btn-glass btn-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Item 4: Boutique -->
+                    <div class="portfolio-card" data-category="boutique">
+                        <div class="portfolio-image-wrapper">
+                            <img src="images/boutique.jpg" alt="Boutique Fashion Website Concept Design" loading="lazy">
+                            <div class="badge-concept">Concept Design</div>
+                            <div class="portfolio-overlay">
+                                <button class="btn btn-gold btn-sm open-preview" data-modal="modal-boutique">
+                                    <i class="fa-solid fa-eye"></i> Preview Design
+                                </button>
+                            </div>
+                        </div>
+                        <div class="portfolio-content">
+                            <div class="portfolio-meta">
+                                <span class="category-tag"><i class="fa-solid fa-bag-shopping"></i> Fashion & E-Commerce</span>
+                            </div>
+                            <h3 class="portfolio-title">Luxury Fashion Boutique</h3>
+                            <p class="portfolio-desc">Fashion catalog, Instagram shop integration, product gallery, and direct WhatsApp ordering system.</p>
+                            <div class="portfolio-actions">
+                                <button class="btn btn-outline btn-sm open-preview" data-modal="modal-boutique">View Details</button>
+                                <a href="https://goldrichstores.lovable.app" target="_blank" class="btn btn-glass btn-sm"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="portfolio-cta-banner">
+                    <div class="banner-content">
+                        <h3>Want to see more live stores & client work?</h3>
+                        <p>Explore our complete live portfolio showcase online.</p>
+                    </div>
+                    <a href="https://goldrichstores.lovable.app" target="_blank" rel="noopener" class="btn btn-gold">
+                        <i class="fa-solid fa-external-link"></i> Visit goldrichstores.lovable.app
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ⭐ WHY CHOOSE ME SECTION -->
+        <section class="why-us-section" id="why-us">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="section-tag"><i class="fa-solid fa-star"></i> Why Choose Eliza's Web Design</div>
+                    <h2 class="section-title">Built Specially for <span class="gold-gradient-text">Local Business Growth</span></h2>
+                    <p class="section-subtitle">We don't just design pretty pages — we build websites engineered to turn visitors into leads and phone calls.</p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-truck-fast"></i></div>
+                        <h3>Fast Delivery</h3>
+                        <p>Get your business online rapidly without waiting months. Most website packages delivered within 3 to 7 working days.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                        <h3>Mobile-Friendly Websites</h3>
+                        <p>Over 80% of local customers browse on phones. Your website will look flawless on iPhone, Android, and tablets.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                        <h3>Google Maps Integration</h3>
+                        <p>Help local customers in your city find your location easily with embedded interactive Google Maps and direction guides.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-paper-plane"></i></div>
+                        <h3>Contact Forms & WhatsApp</h3>
+                        <p>High-converting lead forms and instant WhatsApp chat buttons so customers can contact you immediately.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-chart-line"></i></div>
+                        <h3>SEO Optimization</h3>
+                        <p>Optimized with meta tags, clean code structure, and speed enhancements to help your website rank on Google search.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fa-solid fa-lock"></i></div>
+                        <h3>Paystack Payment Ready</h3>
+                        <p>Easily accept credit card, bank transfer, and USSD payments directly on your website via integrated Paystack checkout.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 💰 PRICING SECTION & 💳 PAYSTACK DEPOSITS -->
+        <section class="pricing-section" id="pricing">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="section-tag"><i class="fa-solid fa-tags"></i> Transparent Pricing</div>
+                    <h2 class="section-title">Affordable Packages for <span class="gold-gradient-text">Every Small Business</span></h2>
+                    <p class="section-subtitle">Simple, upfront pricing with instant Paystack deposit links to kickstart your project today.</p>
+                </div>
+
+                <div class="pricing-grid">
+                    <!-- Starter Website -->
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <span class="plan-badge">Essential</span>
+                            <h3 class="plan-title">Starter Website</h3>
+                            <div class="plan-price">
+                                <span class="currency">₦</span>55,000 <span class="period">NGN</span>
+                            </div>
+                            <p class="plan-desc">Ideal for small businesses needing a clean, professional online presence.</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fa-solid fa-check gold-text"></i> Up to 3 Professional Pages</li>
+                            <li><i class="fa-solid fa-check gold-text"></i> 100% Mobile Responsive</li>
+                            <li><i class="fa-solid fa-check gold-text"></i> Direct WhatsApp Contact Button</li>
+                            <li><i class="fa-solid fa-check gold-text"></i> Basic Lead Contact Form</li>
+                            <li><i class="fa-solid fa-check gold-text"></i> Google Maps Location Setup</li>
+                            <li><i class="fa-solid fa-check gold-text"></i> 3-5 Days Fast Delivery</li>
+                        </ul>
+                        <div class="pricing-footer">
+                            <a href="https://paystack.shop/pay/professionawebsite" target="_blank" rel="noopener" class="btn btn-gold btn-block btn-paystack">
+                                <i class="fa-solid fa-credit-card"></i> Pay Deposit (₦55,000)
+                            </a>
+                            <a href="#contact" class="btn btn-glass btn-block mt-2">Request Custom Quote</a>
+                        </div>
+                    </div>
+
+                    <!-- Business Website (Highlighted) -->
+                    <div class="pricing-card popular">
+                        <div class="popular-ribbon"><i class="fa-solid fa-star"></i> Most Popular</div>
+                        <div class="pricing-header">
+                            <span class="plan-badge gold-badge">Growth</span>
+                            <h3 class="plan-title">Business Website</h3>
+                            <div class="plan-price">
+                                <span class="currency">₦</span>100,000 <span class="period">NGN</span>
+                            </div>
+                            <p class="plan-desc">Perfect for growing local services, contractors, salons, and restaurants.</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fa-solid fa-check gold-text"></i> Up to 6 Custom Pages</li>
+                            <li><i class="fa-solid fa-check gold-text"></i> Premium Modern Dark/Light Design</li>
+                            <li><i class="fa-solid fa-check gold-text"></i> Advanced Contact & Booking Form</li>
+                            <li><i class="fa-solid fa-check gold-text"></i> Google Maps & Business Profile SEO</li>
+                            <li><i class="fa-solid fa-check gold-text"></i> Photo Gallery & Service Menu</li>
+                            <li><i class="fa-solid fa-check gold-text"></i> Paystack Payment Integration</li>
+                            <li><i class="fa-solid fa-check gold-text"></i> Free Domain & Hosting Consultation</li>
+                        </ul>
+                        <div class="pricing-footer">
+                            <a href="https://paystack.shop/pay/businesswebs" target="_blank" rel="noopener" class="btn btn-gold btn-block btn-paystack glow-btn">
+                                <i class="fa-solid fa-credit-card"></i> Pay Deposit (₦100,000)
+                            </a>
+                            <a href="#contact" class="btn btn-glass btn-block mt-2">Request Free Demo</a>
+                        </div>
+                    </div>
+
+                    <!-- Premium Website -->
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <span class="plan-badge">Full Scale</span>
+                            <h3 class="plan-title">Premium Website</h3>
+                            <div class="plan-price">
+                                <span class="currency">₦</span>150,000 <span class="period">NGN</span>
+                            </div>
+                            <p class="plan-desc">Complete e-commerce & high-converting platform with all premium features.</p>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fa-solid fa-check gold-text"></i> Unlimited Pages / Product Catalog</li>
+                            <li><i class="fa-solid fa-check gold-text"></i> Full E-Commerce / Booking Engine</li>
+                            <li><i class="fa-solid fa-check gold-text"></i> Direct Paystack Checkout Portal</li>
+                            <li><i class="fa-solid fa-check gold-text"></i> Comprehensive Local SEO Strategy</li>
+                            <li><i class="fa-solid fa-check gold-text"></i> Social Media & Instagram Shop Link</li>
+                            <li><i class="fa-solid fa-check gold-text"></i> Priority Support & Maintenance</li>
+                        </ul>
+                        <div class="pricing-footer">
+                            <a href="https://paystack.shop/pay/premiumwebsites" target="_blank" rel="noopener" class="btn btn-gold btn-block btn-paystack">
+                                <i class="fa-solid fa-credit-card"></i> Pay Deposit (₦150,000)
+                            </a>
+                            <a href="#contact" class="btn btn-glass btn-block mt-2">Request Custom Quote</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="paystack-notice">
+                    <i class="fa-solid fa-shield-halved gold-text"></i>
+                    <span>All payments securely processed via <strong>Paystack</strong>. Once deposit is paid, we begin work immediately!</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ⚡ FREE DEMO REQUEST SECTION -->
+        <section class="demo-section" id="demo-section">
+            <div class="container">
+                <div class="demo-card">
+                    <div class="demo-grid">
+                        <div class="demo-info">
+                            <div class="section-tag"><i class="fa-solid fa-wand-magic-sparkles"></i> Zero Risk Guarantee</div>
+                            <h2>Want to See How Your Website Will Look <span class="gold-gradient-text">BEFORE You Pay?</span></h2>
+                            <p>Tell us your business type and line of work. We will send you a free, non-binding website demo concept designed specifically for your brand!</p>
+                            
+                            <div class="demo-benefits">
+                                <div class="benefit-item">
+                                    <i class="fa-solid fa-circle-check gold-text"></i>
+                                    <span>No upfront payment required for demo concept</span>
+                                </div>
+                                <div class="benefit-item">
+                                    <i class="fa-solid fa-circle-check gold-text"></i>
+                                    <span>Custom tailored to plumbers, electricians, salons, etc.</span>
+                                </div>
+                                <div class="benefit-item">
+                                    <i class="fa-solid fa-circle-check gold-text"></i>
+                                    <span>Sent directly to your WhatsApp within 24 hours</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="demo-form-wrapper">
+                            <form id="quickDemoForm" class="demo-form">
+                                <h3>Get Your Free Website Demo</h3>
+                                
+                                <div class="form-group">
+                                    <label for="demoName">Your Full Name</label>
+                                    <div class="input-with-icon">
+                                        <i class="fa-solid fa-user"></i>
+                                        <input type="text" id="demoName" placeholder="e.g. John Doe" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="demoBiz">Business Name & Industry</label>
+                                    <div class="input-with-icon">
+                                        <i class="fa-solid fa-store"></i>
+                                        <input type="text" id="demoBiz" placeholder="e.g. Apex Electrical Services" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="demoPhone">WhatsApp Phone Number</label>
+                                    <div class="input-with-icon">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                        <input type="tel" id="demoPhone" value="+2349165618457" required>
+                                    </div>
+                                </div>
+
+                                <button type="submit" class="btn btn-gold btn-block">
+                                    <i class="fa-solid fa-paper-plane"></i> Request Free Website Demo
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 📞 CONTACT SECTION -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="section-header text-center">
+                    <div class="section-tag"><i class="fa-solid fa-headset"></i> Get In Touch</div>
+                    <h2 class="section-title">Ready to Grow Your <span class="gold-gradient-text">Local Business?</span></h2>
+                    <p class="section-subtitle">Contact Eliza's Web Design directly via WhatsApp, Email, Instagram, or form below.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Contact Cards -->
+                    <div class="contact-info-cards">
+                        <a href="https://wa.me/2349165618457" target="_blank" rel="noopener" class="contact-card whatsapp-card">
+                            <div class="contact-card-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                            <div class="contact-card-details">
+                                <span class="contact-label">Direct WhatsApp</span>
+                                <span class="contact-value">+234 916 561 8457</span>
+                                <span class="contact-link-text">Chat with us now <i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                        </a>
+
+                        <a href="mailto:elizabethfashoranti3@gmail.com" class="contact-card email-card">
+                            <div class="contact-card-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="contact-card-details">
+                                <span class="contact-label">Email Address</span>
+                                <span class="contact-value">elizabethfashoranti3@gmail.com</span>
+                                <span class="contact-link-text">Send an email <i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                        </a>
+
+                        <a href="https://instagram.com/elizas_code" target="_blank" rel="noopener" class="contact-card instagram-card">
+                            <div class="contact-card-icon"><i class="fa-brands fa-instagram"></i></div>
+                            <div class="contact-card-details">
+                                <span class="contact-label">Instagram Handle</span>
+                                <span class="contact-value">@elizas_code</span>
+                                <span class="contact-link-text">Follow & DM us <i class="fa-solid fa-arrow-right"></i></span>
+                            </div>
+                        </a>
+
+                        <div class="contact-card paystack-info-card">
+                            <div class="contact-card-icon"><i class="fa-solid fa-credit-card"></i></div>
+                            <div class="contact-card-details">
+                                <span class="contact-label">Instant Deposit Link</span>
+                                <span class="contact-value">Paystack Payment Portal</span>
+                                <a href="#pricing" class="contact-link-text">View Pricing & Deposit Links <i class="fa-solid fa-arrow-down"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <div class="contact-form-card">
+                        <h3>Send Us a Message</h3>
+                        <p>Fill out the form below and we will get back to you within minutes!</p>
+                        
+                        <form id="mainContactForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="contactName">Name</label>
+                                    <input type="text" id="contactName" placeholder="Your Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="contactPhone">WhatsApp Number</label>
+                                    <input type="tel" id="contactPhone" value="+2349165618457" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contactEmail">Email Address</label>
+                                <input type="email" id="contactEmail" placeholder="elizabethfashoranti3@gmail.com" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contactCategory">Business Type</label>
+                                <select id="contactCategory" required>
+                                    <option value="" disabled selected>Select your industry</option>
+                                    <option value="Plumber">Plumbing Services</option>
+                                    <option value="Electrician">Electrical Contractor</option>
+                                    <option value="Contractor">General Contracting & Roofing</option>
+                                    <option value="Salon">Salon & Beauty Spa</option>
+                                    <option value="Restaurant">Restaurant & Food Business</option>
+                                    <option value="Barber Shop">Barber Shop</option>
+                                    <option value="Boutique">Fashion Boutique</option>
+                                    <option value="Small Business">Other Small Business</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contactMessage">Project Details / Requirements</label>
+                                <textarea id="contactMessage" rows="4" placeholder="Tell us about your business goals and what features you need for your website..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-gold btn-block btn-lg">
+                                <i class="fa-brands fa-whatsapp"></i> Send via WhatsApp / Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#home" class="nav-logo">
+                    <span class="logo-icon"><i class="fa-solid fa-code"></i></span>
+                    <span class="logo-text">Eliza's <span class="gold-text">Web Design</span></span>
+                </a>
+                <p>We build high-converting websites that help local businesses get more customers. Fast, mobile-friendly & SEO optimized.</p>
+                <div class="social-links">
+                    <a href="https://wa.me/2349165618457" target="_blank" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="mailto:elizabethfashoranti3@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://instagram.com/elizas_code" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://goldrichstores.lovable.app" target="_blank" aria-label="Portfolio"><i class="fa-solid fa-globe"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#why-us">Why Choose Me</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-pricing">
+                <h4>Paystack Payment Links</h4>
+                <ul>
+                    <li><a href="https://paystack.shop/pay/professionawebsite" target="_blank">Starter Website (₦55,000)</a></li>
+                    <li><a href="https://paystack.shop/pay/businesswebs" target="_blank">Business Website (₦100,000)</a></li>
+                    <li><a href="https://paystack.shop/pay/premiumwebsites" target="_blank">Premium Website (₦150,000)</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Direct Contact</h4>
+                <p><i class="fa-brands fa-whatsapp gold-text"></i> +234 916 561 8457</p>
+                <p><i class="fa-solid fa-envelope gold-text"></i> elizabethfashoranti3@gmail.com</p>
+                <p><i class="fa-brands fa-instagram gold-text"></i> @elizas_code</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container text-center">
+                <p>&copy; 2026 <strong>Eliza's Web Design</strong>. All rights reserved. Built with passion for local business success.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 💬 FLOATING WHATSAPP BUTTON -->
+    <a href="https://wa.me/2349165618457?text=Hello%20Eliza,%20I'm%20interested%20in%20building%20a%20website%20for%20my%20business!" target="_blank" rel="noopener" class="floating-whatsapp" aria-label="Chat on WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Chat with Eliza</span>
+    </a>
+
+    <!-- PORTFOLIO PREVIEW MODALS -->
+    <!-- Modal 1: Restaurant -->
+    <div class="modal" id="modal-restaurant" aria-hidden="true">
+        <div class="modal-overlay" data-close="true"></div>
+        <div class="modal-container">
+            <button class="modal-close" data-close="true">&times;</button>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img src="images/restaurant.jpg" alt="Restaurant Concept Preview">
+                </div>
+                <div class="modal-details">
+                    <span class="badge-concept">Concept Design</span>
+                    <h2>Local Gourmet Restaurant Website</h2>
+                    <p class="modal-lead">Designed for dining establishments, cafes, and food vendors to attract hungry local diners.</p>
+                    
+                    <ul class="modal-feature-list">
+                        <li><i class="fa-solid fa-check gold-text"></i> Interactive digital menu with food photography</li>
+                        <li><i class="fa-solid fa-check gold-text"></i> Table reservation request form</li>
+                        <li><i class="fa-solid fa-check gold-text"></i> Direct WhatsApp food ordering button</li>
+                        <li><i class="fa-solid fa-check gold-text"></i> Google Maps directions & opening hours</li>
+                    </ul>
+
+                    <div class="modal-actions">
+                        <a href="https://paystack.shop/pay/businesswebs" target="_blank" class="btn btn-gold">
+                            <i class="fa-solid fa-rocket"></i> Get a Website Like This (₦100,000)
+                        </a>
+                        <a href="https://goldrichstores.lovable.app" target="_blank" class="btn btn-glass">
+                            <i class="fa-solid fa-up-right-from-square"></i> Visit Full Store Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2: Roofing -->
+    <div class="modal" id="modal-roofing" aria-hidden="true">
+        <div class="modal-overlay" data-close="true"></div>
+        <div class="modal-container">
+            <button class="modal-close" data-close="true">&times;</button>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img src="images/roofing.jpg" alt="Roofing Concept Preview">
+                </div>
+                <div class="modal-details">
+                    <span class="badge-concept">Concept Design</span>
+                    <h2>Roofing & Contracting Co. Website</h2>
+                    <p class="modal-lead">High-converting lead generation layout built for plumbers, electricians, and contractors.</p>
+                    
+                    <ul class="modal-feature-list">
+                        <li><i class="fa-solid fa-check gold-text"></i> Instant project quote request form</li>
+                        <li><i class="fa-solid fa-check gold-text"></i> Emergency repair direct call / WhatsApp button</li>
+                        <li><i class="fa-solid fa-check gold-text"></i> Before & After project showcase gallery</li>
+                        <li><i class="fa-solid fa-check gold-text"></i> Verified customer testimonial section</li>
+                    </ul>
+
+                    <div class="modal-actions">
+                        <a href="https://paystack.shop/pay/businesswebs" target="_blank" class="btn btn-gold">
+                            <i class="fa-solid fa-rocket"></i> Get a Website Like This (₦100,000)
+                        </a>
+                        <a href="https://goldrichstores.lovable.app" target="_blank" class="btn btn-glass">
+                            <i class="fa-solid fa-up-right-from-square"></i> Visit Full Store Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3: Barber -->
+    <div class="modal" id="modal-barber" aria-hidden="true">
+        <div class="modal-overlay" data-close="true"></div>
+        <div class="modal-container">
+            <button class="modal-close" data-close="true">&times;</button>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img src="images/barbershop.jpg" alt="Barber Concept Preview">
+                </div>
+                <div class="modal-details">
+                    <span class="badge-concept">Concept Design</span>
+                    <h2>Executive Barber Shop Website</h2>
+                    <p class="modal-lead">Sleek, masculine design focused on haircut booking and stylist scheduling.</p>
+                    
+                    <ul class="modal-feature-list">
+                        <li><i class="fa-solid fa-check gold-text"></i> Online haircut booking calendar</li>
+                        <li><i class="fa-solid fa-check gold-text"></i> Haircut styles & grooming gallery</li>
+                        <li><i class="fa-solid fa-check gold-text"></i> Service pricing list</li>
+                        <li><i class="fa-solid fa-check gold-text"></i> One-click WhatsApp appointment confirmation</li>
+                    </ul>
+
+                    <div class="modal-actions">
+                        <a href="https://paystack.shop/pay/businesswebs" target="_blank" class="btn btn-gold">
+                            <i class="fa-solid fa-rocket"></i> Get a Website Like This (₦100,000)
+                        </a>
+                        <a href="https://goldrichstores.lovable.app" target="_blank" class="btn btn-glass">
+                            <i class="fa-solid fa-up-right-from-square"></i> Visit Full Store Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4: Boutique -->
+    <div class="modal" id="modal-boutique" aria-hidden="true">
+        <div class="modal-overlay" data-close="true"></div>
+        <div class="modal-container">
+            <button class="modal-close" data-close="true">&times;</button>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img src="images/boutique.jpg" alt="Boutique Concept Preview">
+                </div>
+                <div class="modal-details">
+                    <span class="badge-concept">Concept Design</span>
+                    <h2>Luxury Fashion Boutique Website</h2>
+                    <p class="modal-lead">Elegant e-commerce storefront for fashion boutiques, clothing brands, and accessory shops.</p>
+                    
+                    <ul class="modal-feature-list">
+                        <li><i class="fa-solid fa-check gold-text"></i> Modern product catalog grid</li>
+                        <li><i class="fa-solid fa-check gold-text"></i> Direct Paystack checkout integration</li>
+                        <li><i class="fa-solid fa-check gold-text"></i> Instagram feed & shop link integration</li>
+                        <li><i class="fa-solid fa-check gold-text"></i> Fast mobile shopping experience</li>
+                    </ul>
+
+                    <div class="modal-actions">
+                        <a href="https://paystack.shop/pay/premiumwebsites" target="_blank" class="btn btn-gold">
+                            <i class="fa-solid fa-rocket"></i> Get a Website Like This (₦150,000)
+                        </a>
+                        <a href="https://goldrichstores.lovable.app" target="_blank" class="btn btn-glass">
+                            <i class="fa-solid fa-up-right-from-square"></i> Visit Full Store Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification Container -->
+    <div id="toastContainer" class="toast-container"></div>
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
